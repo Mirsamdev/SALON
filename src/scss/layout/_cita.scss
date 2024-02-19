@@ -1,0 +1,23 @@
+
+.seccion {
+  padding: 5rem 0; 
+  display: none;
+
+  .text-center {
+    text-align: center;
+  }
+}
+
+  .mostrar {
+    display: block;
+    animation:scale-up-center 0.4s; } @keyframes scale-up-center{ 0%{transform:scale(.5)} 100%{transform:scale(1)} 
+  }
+  .ocultar {
+    display: none;
+  }
+
+  .pspace {
+    font-size: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+  }
